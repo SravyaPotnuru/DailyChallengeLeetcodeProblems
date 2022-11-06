@@ -1,4 +1,8 @@
 //Orderly Queue
+/*Basic idea is to get the solution is depends on value of k,if we try to make dry run of the problem then we can understand that for having values of k>1 we can make
+the string in the sorted order.If k==0 then we can return back the string. The problem arises when k==1: for this we traverse by picking every 1st element and appends back
+and checks wheather we got lexicographically smallest string then we update the  string and returns the new string.*/
+
 
 class Solution {
 public:
