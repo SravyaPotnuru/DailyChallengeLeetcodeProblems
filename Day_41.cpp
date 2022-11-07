@@ -1,4 +1,4 @@
-###Maximum 69 Number
+# Maximum 69 Number
 /*Approach-1: Convert the num to string using to_string function and the traverse through the string update the 1st 6 to 9 and break the loop and return the num by stoi(string)*/
 
 class Solution {
